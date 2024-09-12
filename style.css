@@ -17,9 +17,11 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  width: 80%;
+  /* width: 80%; */
   width: 1000px;
   overflow: hidden;
+
+  border: 2px solid green;
 }
 
 .box1,
@@ -64,6 +66,22 @@ body {
   align-items: center;
 }
 
+.visa {
+  z-index: 1;
+}
+
+.mastercard {
+  z-index: 3;
+}
+
+.gpay {
+  z-index: 5;
+}
+
+.apay{
+  z-index: 7;
+}
+
 /* CHEESE BITES */
 .visa::before,
 .mastercard::before,
@@ -75,6 +93,54 @@ body {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+}
+
+.visa::before {
+  z-index: 2;
+}
+
+.mastercard::before {
+  z-index: 4;
+}
+
+.gpay::before {
+  z-index: 6;
+}
+
+.apay::before {
+  z-index: 8;
+}
+
+.visa {
+  animation: visaLeftToRight 1s 1 ease-in-out;
+}
+
+.gpay {
+  animation: gpayLeftToRight 1s 1 ease-in-out forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+@keyframes visaLeftToRight {
+  from {
+    left: -100%;
+  }
+
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes gpayLeftToRight {
+  from {
+    left: -100%;
+    opacity: 1;
+  }
+
+  to {
+    left: 0%;
+    opacity: 1;
+  }
 }
 
 .visa::before {
