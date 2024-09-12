@@ -87,20 +87,20 @@ body {
 .gpay {
   background: linear-gradient(to left, #8ef7a8 5%, white);
   animation: gpayLeftToRight 1s 1 ease-in-out forwards;
-  animation-delay: 3s;
+  animation-delay: 2s;
   opacity: 0;
 }
 
 .apay {
   animation: RightToLeft 1s 1 forwards;
-  animation-delay: 4s;
+  animation-delay: 3s;
   opacity: 0;
   background: linear-gradient(to right, #f7a38e 5%, white);
 }
 
 .mastercard {
   animation: RightToLeft 1s 1 forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
   opacity: 0;
   background: linear-gradient(to right, #df8ef7 5%, white);
 }
@@ -169,13 +169,13 @@ body {
 
 .box1 {
   animation: drop-down 2s 1 forwards;
-  animation-delay: 5s;
+  animation-delay: 4s;
   opacity: 0;
 }
 
 .box3 {
   animation: drop-up 2s 1 forwards;
-  animation-delay: 6s;
+  animation-delay: 5s;
   opacity: 0;
 }
 
