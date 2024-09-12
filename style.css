@@ -24,6 +24,9 @@ body {
 
 .box1,
 .box3 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   grid-column: span 2;
   background-color: #fff;
   padding: 20px;
@@ -87,6 +90,9 @@ body {
   left: -150px;
 }
 
-.keanu img{
-border-radius: 50%;
+.keanu img {
+  border-radius: 50%;
+  position: absolute;
+  top: 28%;
+  left: 42%;
 }
