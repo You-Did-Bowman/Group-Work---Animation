@@ -19,8 +19,9 @@ body {
   font-weight: bold;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
+  margin: 1rem 0;
   padding: 1rem;
   width: 100%;
 }
