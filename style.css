@@ -140,30 +140,30 @@ body {
 }
 
 .visa::before {
-  bottom: -150px;
-  right: -150px;
+  bottom: -160px;
+  right: -160px;
 }
 
 .mastercard::before {
-  bottom: -150px;
-  left: -150px;
+  bottom: -160px;
+  left: -160px;
 }
 
 .gpay::before {
-  top: -150px;
-  right: -150px;
+  top: -160px;
+  right: -160px;  
 }
 
 .apay::before {
-  top: -150px;
-  left: -150px;
+  top: -160px;
+  left: -160px;
 }
 
 .keanu img {
   border-radius: 50%;
   position: absolute;
-  top: 160px;
-  left: 350px;
+  top: 180px;
+  left: 370px;
 }
 /* Animations */
 
